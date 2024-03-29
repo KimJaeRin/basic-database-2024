@@ -6,11 +6,15 @@ IoT 개발자과정 SQL Server 학습 리포지토리.
     - DBMS 엔진 - 개발자 버전.
         - iso 다운로드 후 설치 추천.
         - SQL Server에 대한 Azure 확장 비활성화 후 진행할 것.
+
+        ![기능선택](https://github.com/KimJaeRin/basic-database-2024/blob/main/images/db001.png?raw=true)
+
+
         - 데이터베이스 엔진 구성부터 중요
             - Windows 인증모드로 하면 외부에서 접근 불가
             - 혼합모드(sa)에한 암호를 지정 / mssql_p@ss  (8자 이상/대소문자 구분/ 특수문자 1자 이상 포함)
             - 데이터루트 디렉토리는 변경
-    - 개발툴 설치
+    - ![개발툴 설치](https://learn.microsoft.com/ko-kr/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16)
         - SSMS(Sql Server Mangement Studio) DB에 접근, 여러 개발 작업할 툴.
 
 - 데이터 베이스 개념
@@ -26,6 +30,8 @@ IoT 개발자과정 SQL Server 학습 리포지토리.
 
 - SQL 기본학습
     _SSMS 실행
+
+    ![SSMS로그인](https://github.com/KimJaeRin/basic-database-2024/blob/main/images/db002.png?raw=true)
 
 - DML 학습
     - SQL 명령어 키워드: SELECR, INSERT, UPDATA, DELETE
