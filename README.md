@@ -98,3 +98,6 @@ IoT 개발자과정 SQL Server 학습 리포지토리.
 
     ![외부조인](https://github.com/KimJaeRin/basic-database-2024/blob/main/images/db004.png?raw=true)
 
+
+
+## 3일차
