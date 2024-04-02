@@ -235,3 +235,5 @@ IoT 개발자과정 SQL Server 학습 리포지토리.
 - 파이썬 SQL Server 연동 프로그래밍
     - PyQT GUI 생성
     - SQL Server 데이터 핸들링
+
+- 데이터베이스 모델링
