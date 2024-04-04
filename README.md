@@ -1,7 +1,7 @@
 # basic-database-2024
 IoT 개발자과정 SQL Server 학습 리포지토리.
 
-## 1일차
+## 1일차(24/03/28)
 - MS SQL Server 설치 : https://www.microsoft.com/ko-kr/sql-server/sql-server-downloads 최신 버전
     - DBMS 엔진 - 개발자 버전.
         - iso 다운로드 후 설치 추천.
@@ -284,9 +284,12 @@ IoT 개발자과정 SQL Server 학습 리포지토리.
         ![구성관리자](https://github.com/KimJaeRin/basic-database-2024/blob/main/images/db005.png?raw=true)
 
 
-    - PyQT GUI 생성
-    
-    
-     SQL Server 데이터 핸들링
+## 6일차
+- 파이썬 SQL Server 연동 프로그래밍
+    - Madang DB 관리 프로그램
+        - PyQT + pymssql
 
-- 데이터베이스 모델링
+    - 문제점 : 한글 깨짐문제
+        1. DB테이블의 varchar() -> nvarchar(UTF-8) 변경
+        2. Python에서 pymssql로 접속할 때, charset을 'UTF8'로 설정
+        3. INSERT 쿼리에 한글 입력되는 컬럼은 N''을 붙여줌(유니코드로 입력하라는 뜻)
