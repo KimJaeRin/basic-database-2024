@@ -293,3 +293,7 @@ IoT 개발자과정 SQL Server 학습 리포지토리.
         1. DB테이블의 varchar() -> nvarchar(UTF-8) 변경
         2. Python에서 pymssql로 접속할 때, charset을 'UTF8'로 설정
         3. INSERT 쿼리에 한글 입력되는 컬럼은 N''을 붙여줌(유니코드로 입력하라는 뜻)
+    - 실행화면
+    https://github.com/KimJaeRin/basic-database-2024/assets/158007433/01c710db-b5f8-44c3-877f-3a470d55ce61
+
+
