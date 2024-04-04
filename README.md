@@ -310,4 +310,3 @@ https://github.com/KimJaeRin/basic-database-2024/assets/158007433/39db50e3-0357-
 
 
 
->>>>>>> 4c479c59556665e86b60a12870522c36c75d05a4
