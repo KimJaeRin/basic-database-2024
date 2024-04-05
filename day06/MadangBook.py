@@ -148,9 +148,7 @@ class qtApp(QMainWindow):
         
         #삭제시에는 삭제여부를 물어보는게 좋음
         re = QMessageBox.question(self, '삭제 여부', '삭제하시겠습니까?', QMessageBox.Yes | QMessageBox.No)
-        if re == QMessageBox.Yes:
-            event.accept()
-        else:
+        if re == QMessageBox.No:
             return
         
         conn = db.connect(serverName, userID, userPass, dbname, charset = dbcharset)
