@@ -293,14 +293,27 @@ IoT 개발자과정 SQL Server 학습 리포지토리.
         1. DB테이블의 varchar() -> nvarchar(UTF-8) 변경
         2. Python에서 pymssql로 접속할 때, charset을 'UTF8'로 설정
         3. INSERT 쿼리에 한글 입력되는 컬럼은 N''을 붙여줌(유니코드로 입력하라는 뜻)
+    
+     - 실행화면
+
+        https://github.com/KimJaeRin/basic-database-2024/assets/158007433/39db50e3-0357-4309-83fb-60909039ffe8
 
 
 ## 7일차
 - SQL 고급
-    - 트랜잭션 : ALL or NOTHING
+    - 트랜잭션 : ALL or NOTHING 
+    - 트랜잭션 속성(ACID)
+        - Atomicity(원자성)
+        - Consistency(일관성)
+        - Isolation(고립성)
+        - Durability(지속성)
+    - TCL에서 사용할 키워드
+        - BEGIN, TRAN[SACTION], COMMIT, ROLLBACK, SAVE
+    
+    - SQL Server는 기본적으로 Auto Commit(시스템이 자동으로 트랜잭션을 건다)
+    - SSMS > 도구 > 옵션 > 쿼리 실행 > SQL Server > ANSI
+        -> SET IMPLICIT_TRANSACTION 체크, 프로그램 재시작
+
+    - 트랜잭션 : 로직 처리시 다른 트랜잭션의 간섭을 받지않기 위한 것(LOCK), 중요한 데이터 수정, 삭제시 잘못된 변경을 방지하기 위한 것
 
 - 데이터 베이스 모델링
-    - 실행화면
-
-https://github.com/KimJaeRin/basic-database-2024/assets/158007433/39db50e3-0357-4309-83fb-60909039ffe8
-
