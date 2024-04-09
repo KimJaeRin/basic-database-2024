@@ -354,4 +354,26 @@ IoT 개발자과정 SQL Server 학습 리포지토리.
             - SSMS > 보안 > 로그인 > 새 로그인 클릭
                  - 사용자계정 : hr_user, 비밀번호 : hr_p@ss!
                 - 사용자 매핑 : hr 선택, 데이터베이스 역할 멤버 : db_owner 추가 선택
-    2. HR사용자 권한 로그인(VS Code)
+    
+    2. HR사용자 권한 로그인(VS Code) - hr_user
+        - SELECT
+        - WHERE, ORDER BY
+        - FUNCTION
+        - AGGREGATE FUNC
+        - JOIN
+        - SET ...
+
+## 9일차
+- 실무실습
+    - 쿼리실습
+    - 기본 SELECT, WHERE, ORDER BY
+    - 집계합수 GROUP BY, ROLLUP
+    - JOIN, SUBQUERY, UNION ...
+    - CASE WHEN THEN END...
+    - 내장함수 ...
+    ![HR_ERD](https://github.com/KimJaeRin/basic-database-2024/blob/main/images/db007.png?raw=true)
+- 공부를 더할 부분
+    - 트랜잭션
+    - DB보안 백업과 복원
+    - 모델링 + 정규화
+    - 데이터모델링 실습
